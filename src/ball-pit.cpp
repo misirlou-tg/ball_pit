@@ -4,9 +4,10 @@
 #include "physics/physics-engine.h"
 #include "physics/quad-tree.h"
 #include "util/basic-types.h"
-#include "util/enum-utils.h"
-#include "util/random-generator.h"
 #include "world/world.h"
+
+import Util.EnumUtils;
+import Util.RandomGenerator;
 
 class BallPit : olc::PixelGameEngine
 {

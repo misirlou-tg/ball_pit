@@ -3,8 +3,9 @@
 
 #include "physics/physics-utils.h"
 #include "util/basic-types.h"
-#include "util/enum-utils.h"
 #include "world/world.h"
+
+import Util.EnumUtils;
 
 struct PhysicalProperties
 {

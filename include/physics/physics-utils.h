@@ -2,7 +2,8 @@
 #define PHYSICS_UTILS_H
 
 #include "util/basic-types.h"
-#include "util/enum-utils.h"
+
+import Util.EnumUtils;
 
 struct AABBBox
 {
