@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{0fb6afc5-ad49-4e7c-8716-3ac3b9884b1e}</UniqueIdentifier>
+      <Extensions>ixx</Extensions>
+    </Filter>
+    <Filter Include="Modules\Util">
+      <UniqueIdentifier>{ac391ee2-72e1-42bd-9ccf-c701704f26ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Bridges">
+      <UniqueIdentifier>{7c70fc8f-cbb2-4ddb-b87b-bee4578d82c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Physics">
+      <UniqueIdentifier>{c6941c26-d07d-43d4-911d-15bda41a975a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\World">
+      <UniqueIdentifier>{d0551aeb-4848-4de1-8f59-ddc7730bad13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3rd_Party">
+      <UniqueIdentifier>{cfd6082f-af8f-4477-93da-06e3f24323c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{5cd0d0ea-5cdd-455c-9b65-a149ff258918}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ball-pit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\util\basic-types.ixx">
+      <Filter>Modules\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\util\enum-utils.ixx">
+      <Filter>Modules\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\util\random-generator.ixx">
+      <Filter>Modules\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\util\stopwatch.ixx">
+      <Filter>Modules\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\bridges\pge-bridge.ixx">
+      <Filter>Modules\Bridges</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\physics\physics-ball.ixx">
+      <Filter>Modules\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\physics\physics-engine.ixx">
+      <Filter>Modules\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\physics\physics-utils.ixx">
+      <Filter>Modules\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\physics\quad-tree.ixx">
+      <Filter>Modules\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\world\world.ixx">
+      <Filter>Modules\World</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rd_party\olcPixelGameEngine.cpp">
+      <Filter>Source Files\3rd_Party</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\physics-ball.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\physics-engine.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

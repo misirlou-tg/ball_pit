@@ -1,2 +1,5 @@
 ##### PLEASE KEEP THIS FILE SORTED! #####
+/.vs/
 /build/
+/x64/
+ball_pit.vcxproj.user
