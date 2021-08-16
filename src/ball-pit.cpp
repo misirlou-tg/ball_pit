@@ -1,10 +1,10 @@
-#include <functional>
-
-#include "physics/physics-ball.h"
-#include "physics/physics-engine.h"
-#include "physics/quad-tree.h"
+#include <cinttypes>
+#include <string>
 
 import Bridges.PGE;
+import Physics.Ball;
+import Physics.Engine;
+import Physics.QuadTree;
 import Util.BasicTypes;
 import Util.EnumUtils;
 import Util.RandomGenerator;

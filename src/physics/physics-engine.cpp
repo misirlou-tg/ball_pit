@@ -1,6 +1,9 @@
-#include "physics/physics-engine.h"
-
+module;
 #include <cassert>
+#include <algorithm>
+#include <memory>
+#include <vector>
+module Physics.Engine;
 
 import Util.Stopwatch;
 
