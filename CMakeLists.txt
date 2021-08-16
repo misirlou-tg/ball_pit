@@ -30,6 +30,7 @@ add_executable(ball_pit
     src/ball-pit.cpp
     src/physics/physics-ball.cpp
     src/physics/physics-engine.cpp
+    modules/bridges/pge-bridge.ixx
     modules/util/enum-utils.ixx
     modules/util/random-generator.ixx
 )

@@ -3,7 +3,7 @@
 
 #include <cstdint>
 
-#include "bridges/pge-bridge.h"
+import Bridges.PGE;
 
 enum class Width : std::int32_t { };
 enum class Height : std::int32_t { };
