@@ -8,8 +8,8 @@
 
 #include "physics/physics-ball.h"
 #include "physics/physics-utils.h"
-#include "util/basic-types.h"
 
+import Util.BasicTypes;
 import Util.EnumUtils;
 
 enum class Level : int { };

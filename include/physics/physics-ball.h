@@ -2,10 +2,10 @@
 #define PHYSICS_BALL_H
 
 #include "physics/physics-utils.h"
-#include "util/basic-types.h"
-#include "world/world.h"
 
+import Util.BasicTypes;
 import Util.EnumUtils;
+import World;
 
 struct PhysicalProperties
 {

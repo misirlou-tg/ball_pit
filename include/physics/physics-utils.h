@@ -1,7 +1,7 @@
 #ifndef PHYSICS_UTILS_H
 #define PHYSICS_UTILS_H
 
-#include "util/basic-types.h"
+import Util.BasicTypes;
 
 import Util.EnumUtils;
 

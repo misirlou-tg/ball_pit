@@ -3,12 +3,12 @@
 #include "physics/physics-ball.h"
 #include "physics/physics-engine.h"
 #include "physics/quad-tree.h"
-#include "util/basic-types.h"
-#include "world/world.h"
 
 import Bridges.PGE;
+import Util.BasicTypes;
 import Util.EnumUtils;
 import Util.RandomGenerator;
+import World;
 
 class BallPit : olc::PixelGameEngine
 {

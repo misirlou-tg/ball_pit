@@ -31,8 +31,11 @@ add_executable(ball_pit
     src/physics/physics-ball.cpp
     src/physics/physics-engine.cpp
     modules/bridges/pge-bridge.ixx
+    modules/util/basic-types.ixx
     modules/util/enum-utils.ixx
     modules/util/random-generator.ixx
+    modules/util/stopwatch.ixx
+    modules/world/world.ixx
 )
 
 # Only support statically linking for now.

@@ -7,7 +7,8 @@
 
 #include "physics/physics-ball.h"
 #include "physics/quad-tree.h"
-#include "world/world.h"
+
+import World;
 
 class PhysicsEngine
 {

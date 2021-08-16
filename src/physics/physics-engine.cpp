@@ -2,7 +2,7 @@
 
 #include <cassert>
 
-#include "util/stopwatch.h"
+import Util.Stopwatch;
 
 void PhysicsEngine::update(float dt, World* world)
 {
